@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-09-06 13:15:47" Modified_Date="2025-09-06 17:11:21" Creator="mohas" Comments="" ID="94a04bf1f637893cd4b44d8f8a894b35">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-09-06 13:15:47" Modified_Date="2025-09-06 19:48:42" Creator="mohas" Comments="" ID="8a77315b70f50322502685a0bc53f117">
   <Library_General_Settings>
     <Package_File_Name>LVN_OpenTypeDef</Package_File_Name>
     <Library_Version>1.0.0.2</Library_Version>
@@ -32,10 +32,7 @@
 
 This menu will be availabe during edit mode as well as run mode.
 
-When you are debugging some code and there is a wire carrying a class data or a typedef data, this RCM would come in handy.
-
-
-This package installs the RCM for all the LabVIEW versions current &amp; above.</Description>
+When you are debugging some code and there is a wire carrying a class data or a typedef data, this RCM would come in handy.</Description>
       <Copyright/>
       <Packager>Mohammed Ashiq S</Packager>
       <URL>https://github.com/LabVIEW-Nation/OpenTypeDef</URL>
@@ -104,7 +101,7 @@ This package installs the RCM for all the LabVIEW versions current &amp; above.<
         <Name>PopupMenus\edit time panel and diagram</Name>
         <LLB>true</LLB>
         <Preserve_Hierarchy>false</Preserve_Hierarchy>
-        <Path>&lt;OS User Documents&gt;\LabVIEW Data\PopupMenus\edit time panel and diagram\OpenTypeDef.llb</Path>
+        <Path>&lt;resource&gt;\plugins\PopupMenus\edit time panel and diagram\OpenTypeDef.llb</Path>
       </Additional_Destination>
     </Destinations>
     <Source_Files>
@@ -200,7 +197,58 @@ This package installs the RCM for all the LabVIEW versions current &amp; above.<
 {author_name} - {company_name}
 {copyright}</Text_to_Add>
     </VI_Docs>
-    <System_Destinations/>
+    <System_Destinations>
+      <Default_Destinations>
+        <Name>Application Files</Name>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </Default_Destinations>
+      <Default_Destinations>
+        <Name>User Home</Name>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </Default_Destinations>
+      <Default_Destinations>
+        <Name>User Desktop</Name>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </Default_Destinations>
+      <Default_Destinations>
+        <Name>User Documents</Name>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </Default_Destinations>
+      <Default_Destinations>
+        <Name>User Application Data</Name>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </Default_Destinations>
+      <Default_Destinations>
+        <Name>User Temporary</Name>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </Default_Destinations>
+      <Default_Destinations>
+        <Name>Public Documents</Name>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </Default_Destinations>
+      <Default_Destinations>
+        <Name>Public Application Data</Name>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </Default_Destinations>
+      <Default_Destinations>
+        <Name>Boot Volume Root</Name>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </Default_Destinations>
+      <Additional_Destination>
+        <Name>PopupMenus\edit time panel and diagram</Name>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;OS User Documents&gt;\LabVIEW Data\PopupMenus\edit time panel and diagram\OpenTypeDef.llb</Path>
+      </Additional_Destination>
+    </System_Destinations>
   </Advanced_Settings>
   <Library_Palette_Definition/>
 </VI_Package_Builder_Settings>
