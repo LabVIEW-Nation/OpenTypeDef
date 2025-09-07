@@ -20,7 +20,7 @@
 			<Item Name="Test Main.vi" Type="VI" URL="../Test Main.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Build Qualified Class Private Data Name.vi" Type="VI" URL="../../OpenTypedef.llb/Build Qualified Class Private Data Name.vi"/>
+			<Item Name="Build Qualified Class Private Data Name.vi" Type="VI" URL="../Build Qualified Class Private Data Name.vi"/>
 			<Item Name="Find If Constant Clicked Is Typedef.vi" Type="VI" URL="../Find If Constant Clicked Is Typedef.vi"/>
 			<Item Name="Find If Terminal Clicked Is Typedef.vi" Type="VI" URL="../Find If Terminal Clicked Is Typedef.vi"/>
 		</Item>
