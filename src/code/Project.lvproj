@@ -29,15 +29,6 @@
 			<Item Name="OpenTypeDef-RunTime.ctl" Type="VI" URL="../OpenTypeDef-RunTime.llb/OpenTypeDef-RunTime.ctl"/>
 			<Item Name="OpenTypeDef-RunTime.vi" Type="VI" URL="../OpenTypeDef-RunTime.llb/OpenTypeDef-RunTime.vi"/>
 		</Item>
-		<Item Name="Tests" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Typdefs" Type="Folder">
-				<Item Name="Cluster Test.ctl" Type="VI" URL="../../tests/Typdefs/Cluster Test.ctl"/>
-				<Item Name="Enum Test.ctl" Type="VI" URL="../../tests/Typdefs/Enum Test.ctl"/>
-			</Item>
-			<Item Name="Test Class.lvclass" Type="LVClass" URL="../../tests/Class/Test Class.lvclass"/>
-			<Item Name="Test Main.vi" Type="VI" URL="../../tests/Test Main.vi"/>
-		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
