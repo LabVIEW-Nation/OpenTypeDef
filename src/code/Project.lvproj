@@ -29,6 +29,11 @@
 			<Item Name="OpenTypeDef-RunTime.ctl" Type="VI" URL="../OpenTypeDef-RunTime.llb/OpenTypeDef-RunTime.ctl"/>
 			<Item Name="OpenTypeDef-RunTime.vi" Type="VI" URL="../OpenTypeDef-RunTime.llb/OpenTypeDef-RunTime.vi"/>
 		</Item>
+		<Item Name="OpenClassPrivateData-EditTime.llb" Type="Folder">
+			<Item Name="Execute OpenClassPrivateData-EditTime.vi" Type="VI" URL="../OpenClassPrivateData-EditTime.llb/Execute OpenClassPrivateData-EditTime.vi"/>
+			<Item Name="OpenClassPrivateData-EditTime.ctl" Type="VI" URL="../OpenClassPrivateData-EditTime.llb/OpenClassPrivateData-EditTime.ctl"/>
+			<Item Name="OpenClassPrivateData-EditTime.vi" Type="VI" URL="../OpenClassPrivateData-EditTime.llb/OpenClassPrivateData-EditTime.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
