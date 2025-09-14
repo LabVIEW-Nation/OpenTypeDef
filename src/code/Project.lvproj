@@ -30,6 +30,11 @@
 			<Item Name="Get TypeDef Info.vim" Type="VI" URL="../Common/Get TypeDef Info.vim"/>
 			<Item Name="Build Qualified Class Private Data Name.vi" Type="VI" URL="../Common/Build Qualified Class Private Data Name.vi"/>
 		</Item>
+		<Item Name="OpenClassPrivateData-EditTime.llb" Type="Folder">
+			<Item Name="Execute OpenClassPrivateData-EditTime.vi" Type="VI" URL="../OpenClassPrivateData-EditTime.llb/Execute OpenClassPrivateData-EditTime.vi"/>
+			<Item Name="OpenClassPrivateData-EditTime.ctl" Type="VI" URL="../OpenClassPrivateData-EditTime.llb/OpenClassPrivateData-EditTime.ctl"/>
+			<Item Name="OpenClassPrivateData-EditTime.vi" Type="VI" URL="../OpenClassPrivateData-EditTime.llb/OpenClassPrivateData-EditTime.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
