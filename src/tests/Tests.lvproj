@@ -19,7 +19,12 @@
 				<Item Name="Cluster Test.ctl" Type="VI" URL="../Manual Tests/Typdefs/Cluster Test.ctl"/>
 				<Item Name="Enum Test.ctl" Type="VI" URL="../Manual Tests/Typdefs/Enum Test.ctl"/>
 			</Item>
-			<Item Name="Test Class.lvclass" Type="LVClass" URL="../Manual Tests/Class/Test Class.lvclass"/>
+			<Item Name="Library" Type="Folder">
+				<Item Name="Test Library.lvlib" Type="Library" URL="../Manual Tests/Library/Test Library.lvlib"/>
+			</Item>
+			<Item Name="Class" Type="Folder">
+				<Item Name="Test Class.lvclass" Type="LVClass" URL="../Manual Tests/Class/Test Class.lvclass"/>
+			</Item>
 			<Item Name="Test Main.vi" Type="VI" URL="../Manual Tests/Test Main.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
