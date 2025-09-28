@@ -6,3 +6,6 @@ This package adds a new Right-Click Menu (RCM) for the block diagram <b>Wires</b
 This menu will be available in both edit & run modes.
 
 When you are debugging some code and there is a wire/constant/terminal carrying typedef data or class object, this RCM would come in handy.
+
+## Features
+![Usage](./src/support/Usage.png)
