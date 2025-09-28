@@ -25,7 +25,8 @@
 			<Item Name="Class" Type="Folder">
 				<Item Name="Test Class.lvclass" Type="LVClass" URL="../Manual Tests/Class/Test Class.lvclass"/>
 			</Item>
-			<Item Name="Test Main.vi" Type="VI" URL="../Manual Tests/Test Main.vi"/>
+			<Item Name="Test EditTime.vi" Type="VI" URL="../Manual Tests/Test EditTime.vi"/>
+			<Item Name="Test RunTime.vi" Type="VI" URL="../Manual Tests/Test RunTime.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
