@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-09-06 13:15:47" Modified_Date="2025-09-06 19:48:42" Creator="mohas" Comments="" ID="8a77315b70f50322502685a0bc53f117">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-09-06 13:15:47" Modified_Date="2025-09-28 08:15:06" Creator="LabVIEW Nation" Comments="" ID="c989316ea028b48aace47cf9a8a618a5">
   <Library_General_Settings>
     <Package_File_Name>LVN_OpenTypeDef</Package_File_Name>
     <Library_Version>1.0.0.2</Library_Version>
@@ -28,13 +28,13 @@
     <VI_Package_Configuration_File>OpenTypeDef.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary/>
-      <Description>This package adds a new Right-Click Menu (RCM) for the block diagram Wires.
+      <Description>This package adds a new Right-Click Menu (RCM) for the block diagram &lt;b&gt;Wires&lt;/b&gt;, &lt;b&gt;Constants&lt;/b&gt; &amp; &lt;b&gt;Terminals&lt;/b&gt; which carry either a &lt;b&gt;TypeDef&lt;/b&gt; data or &lt;b&gt;Class Object&lt;/b&gt; data.
 
-This menu will be availabe during edit mode as well as run mode.
+This menu will be availabe in both edit &amp; run modes.
 
-When you are debugging some code and there is a wire carrying a class data or a typedef data, this RCM would come in handy.</Description>
+When you are debugging some code and there is a wire/constant/terminal carrying typedef data or class object, this RCM would come in handy.</Description>
       <Copyright/>
-      <Packager>Mohammed Ashiq S</Packager>
+      <Packager>Mohammed Ashiq S, Shivamanikandan</Packager>
       <URL>https://github.com/LabVIEW-Nation/OpenTypeDef</URL>
       <Release_Notes/>
     </Description>
@@ -98,10 +98,28 @@ When you are debugging some code and there is a wire carrying a class data or a 
         <Path/>
       </QuickDrop_Plugins>
       <Additional_Destination>
-        <Name>PopupMenus\edit time panel and diagram</Name>
+        <Name>PopupMenus\OpenTypeDef-EditTime.llb</Name>
         <LLB>true</LLB>
         <Preserve_Hierarchy>false</Preserve_Hierarchy>
-        <Path>&lt;resource&gt;\plugins\PopupMenus\edit time panel and diagram\OpenTypeDef.llb</Path>
+        <Path>&lt;resource&gt;\plugins\PopupMenus\edit time panel and diagram\OpenTypeDef-EditTime.llb</Path>
+      </Additional_Destination>
+      <Additional_Destination>
+        <Name>PopupMenus\OpenTypeDef-RunTime.llb</Name>
+        <LLB>true</LLB>
+        <Preserve_Hierarchy>false</Preserve_Hierarchy>
+        <Path>&lt;resource&gt;\plugins\PopupMenus\run time diagram\OpenTypeDef-RunTime.llb</Path>
+      </Additional_Destination>
+      <Additional_Destination>
+        <Name>PopupMenus\OpenClassPrivateData-EditTime.llb</Name>
+        <LLB>true</LLB>
+        <Preserve_Hierarchy>false</Preserve_Hierarchy>
+        <Path>&lt;resource&gt;\plugins\PopupMenus\edit time panel and diagram\OpenClassPrivateData-EditTime.llb</Path>
+      </Additional_Destination>
+      <Additional_Destination>
+        <Name>PopupMenus\support</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;resource&gt;\plugins\PopupMenus\support\LabVIEW Nation\OpenTypeDef</Path>
       </Additional_Destination>
     </Destinations>
     <Source_Files>
@@ -112,10 +130,28 @@ When you are debugging some code and there is a wire carrying a class data or a 
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>OpenTypedef.llb</Path>
+        <Path>Common</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>3</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>OpenClassPrivateData-EditTime.llb</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>2</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>OpenTypeDef-EditTime.llb</Path>
         <Destination>0</Destination>
         <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>OpenTypeDef-RunTime.llb</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>1</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
@@ -132,6 +168,9 @@ When you are debugging some code and there is a wire carrying a class data or a 
       </Exclusions>
       <Place_Folder_Contents>
         <Path/>
+      </Place_Folder_Contents>
+      <Place_Folder_Contents>
+        <Path>Common</Path>
       </Place_Folder_Contents>
     </Source_Files>
     <License_Agreement_Filepath/>
