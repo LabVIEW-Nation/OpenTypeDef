@@ -1,3 +1,5 @@
+<a href="https://www.vipm.io/package/lvn_opentypedef/"> <img src="https://www.vipm.io/package/lvn_opentypedef/badge.svg?metric=installs"></a> <a href="https://www.vipm.io/package/lvn_opentypedef/"><img src="https://www.vipm.io/package/lvn_opentypedef/badge.svg?metric=stars"></a>
+
 # Open TypeDef.
 A tool enables a new Right Click Menu option on wires, constants & terminals to open the TypeDef control (.ctl) file of the data type.
 
